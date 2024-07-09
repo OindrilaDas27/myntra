@@ -2,6 +2,11 @@ const mongoose = require("mongoose");
 
 // schema for product
 const ProductSchema = new mongoose.Schema({
+    productID: { 
+        type: String, 
+        required: true, 
+        unique: true 
+    },
     brandName: {
         type: String,
         required: true,
@@ -42,6 +47,9 @@ const ProductSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    tags: [{
+        type: String,
+    }],
     date: {
         type: Date,
         default: Date.now,
