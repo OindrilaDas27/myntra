@@ -1,0 +1,37 @@
+.navbar_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFF6FC;
+    padding: 1rem 0;
+    border-top: 1px solid #FDB5E7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #888;
+    cursor: pointer;
+}
+
+.nav_item:hover {
+    color: #F61BB4;
+}
+
+.selected {
+    color: #F61BB4;
+}
+
+.nav_item .icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-size: 12px;
+}

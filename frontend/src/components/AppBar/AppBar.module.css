@@ -1,0 +1,19 @@
+.appbar_wrapper {
+    height: 3rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.appbar_wrapper h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.appbar_wrapper svg {
+    flex-shrink: 0;
+}

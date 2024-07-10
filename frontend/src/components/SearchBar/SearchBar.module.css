@@ -1,0 +1,46 @@
+.searchbar_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 1rem 0; */
+}
+
+.searchBar {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: #FBEBF6;
+    /* Light pink background color */
+    border-radius: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #FBC5EA;
+}
+
+.icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    color: #6e6e6e;
+    /* Light grey color for the icon */
+    margin-right: 0.6rem;
+}
+
+.input_field {
+    border: none;
+    outline: none;
+    background: none;
+    color: #a0a0a0;
+    /* Light grey color for the input text */
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+.container {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #FBEBF6;
+    /* Light pink background color */
+    border-radius: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #FBC5EA;
+}
