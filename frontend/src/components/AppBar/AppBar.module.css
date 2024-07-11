@@ -1,9 +1,12 @@
 .appbar_wrapper {
-    height: 3rem;
     padding: 1.5rem 1rem;
+    background-color: #fff;
     display: flex;
     align-items: center;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 .appbar_wrapper h1 {

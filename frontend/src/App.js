@@ -6,6 +6,9 @@ import CategoryPage from './pages/CategoryPage/CategoryPage';
 import Account from './pages/Account/Account';
 import AppBar from './components/AppBar/AppBar';
 import BottomNavBar from './components/BottomNavbar/BottomNavBar';
+import TakeInspo from './pages/TakeInspo/TakeInspo';
+import MoodBoard from './pages/MoodBoard/MoodBoard';
+import InspoDetail from './pages/InspoDetail/InspoDetail';
 
 function App() {
   return (
@@ -16,6 +19,8 @@ function App() {
         <Route path='/inspo' element={<InspoPage />} />
         <Route path='/category' element={<CategoryPage />} />
         <Route path='/account' element={<Account />} />
+        <Route path='/inspo/:id' element={<InspoDetail />} />
+        {/* <Route path='/inspo/moodboard' element={<MoodBoard />} /> */}
       </Routes>
       <BottomNavBar />
     </BrowserRouter>

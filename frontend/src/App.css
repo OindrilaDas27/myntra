@@ -1,10 +1,9 @@
 .App {
-  text-align: center;
+  padding-top: 10rem; /* Adjust this value based on the combined height of AppBar and SearchBar */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  padding: 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,26 @@
+.myMasonryGrid {
+  display: flex;
+  width: 100%;
+}
+
+.myMasonryGridColumn {
+  background-clip: padding-box;
+  margin-right: 0.4rem;
+}
+
+.item {
+  margin: 0.4rem 0;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}

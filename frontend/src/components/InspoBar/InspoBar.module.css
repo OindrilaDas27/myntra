@@ -1,0 +1,29 @@
+.inspobar_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: .625rem;
+    position: fixed;
+    top: 8rem;
+    background-color: #fff;
+    z-index: 20;
+  }
+  
+  .inspo_tab {
+    background: none;
+    border: none;
+    padding: .625rem 1rem;
+    cursor: pointer;
+    color: #888;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .selected {
+    color: #222222;
+    background-color: #F0F0F0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 4px solid #F61BB4;
+  }
+  
