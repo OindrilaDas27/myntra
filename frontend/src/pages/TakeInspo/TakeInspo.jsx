@@ -6,8 +6,8 @@ import InspoLandingPage from '../../components/InspoLandingPage/InspoLandingPage
 const TakeInspo = () => {
   return (
     <div className={styles.inspo_wrapper}>
-        {/* <BentoGrid /> */}
-        <InspoLandingPage />
+        <BentoGrid />
+        {/* <InspoLandingPage /> */}
     </div>
   )
 }

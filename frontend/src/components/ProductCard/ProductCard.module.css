@@ -1,0 +1,40 @@
+.product_card {
+    height: 14rem;
+    width: 40vw;
+    border: 1px solid #9c9c9c;
+    border-radius: 8px;
+}
+
+.image {
+    height: 9rem;
+    width: 40vw;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem 0.6rem 0;
+}
+
+.brand_name {
+    margin: 0;
+    font-size: 14px;
+    white-space: nowrap;         
+    overflow: hidden;            
+    text-overflow: ellipsis;
+}
+
+.item_name {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4px 0;
+    white-space: nowrap;         
+    overflow: hidden;            
+    text-overflow: ellipsis;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 4px;
+}
