@@ -1,5 +1,85 @@
 .moodboard_wrapper {
-    background-color: #F0F0F0;
+    background-color: #ffff;
     height: 100vh;
-    padding: 1rem;
+    padding: 1rem 0;
+    margin-top: 6rem;
+}
+
+.topbar_wrapper {
+    width: 100%;
+    height: 2rem;
+    margin: 0;
+    background-color: #F0F0F0;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 0.6rem 1rem;
+}
+
+.actn_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 1rem;
+    border-radius: 2rem;
+    border: 1px solid #F61BB4;
+    background-color: #FBEBF6;
+    color: #585858;
+}
+
+.icon {
+    height: 1.2rem;
+    padding-right: 0.4rem;
+}
+
+.carosoul_wrapper {
+    width: 100%;
+    bottom: 4rem;
+    background-color: #F0F0F0;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem 1rem;
+}
+
+.header_container {
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 0.4rem;
+}
+
+.carosoul {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+.prod_containr {
+    width: 14rem;
+    margin: 0 0.4rem;
+}
+
+.canvas_container {
+    width: 100%;
+    height: 90vh;
+}
+
+.canvas_wrapper {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.draggable_item {
+    position: absolute;
+}
+
+.draggable_image {
+    height: 5rem;
+    width: fit-content;
 }

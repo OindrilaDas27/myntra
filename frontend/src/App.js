@@ -9,6 +9,7 @@ import BottomNavBar from './components/BottomNavbar/BottomNavBar';
 import TakeInspo from './pages/TakeInspo/TakeInspo';
 import MoodBoard from './pages/MoodBoard/MoodBoard';
 import InspoDetail from './pages/InspoDetail/InspoDetail';
+import BentoGrid from './components/BentoGrid/BentoGrid';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <Route path='/category' element={<CategoryPage />} />
         <Route path='/account' element={<Account />} />
         <Route path='/inspo/:id' element={<InspoDetail />} />
-        {/* <Route path='/inspo/moodboard' element={<MoodBoard />} /> */}
+        <Route path='/inspo/grid' element={<BentoGrid />} />
+        <Route path='/inspo/moodboard' element={<MoodBoard />} />
       </Routes>
       <BottomNavBar />
     </BrowserRouter>

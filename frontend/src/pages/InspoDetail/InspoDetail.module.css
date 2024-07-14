@@ -1,19 +1,43 @@
 .inspo_wrapper {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: auto;
 }
 
 .image {
     width: 100%;
-    height: auto;
+    max-height: 90%;
     object-fit: cover;
 }
 
 .details {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.read_more {
+    color: blue;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.carasoul {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensure items are centered vertically */
+    flex-direction: column; /* Arrange items in a column */
+    background-color: #f9f9f9; /* Temporary background color for visibility */
+    padding: 0 1rem 1rem;
+}
+
+.carasoul_content {
+    padding: 0.4rem 0;
 }

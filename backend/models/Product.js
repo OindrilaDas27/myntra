@@ -47,9 +47,10 @@ const ProductSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    tags: [{
-        type: String,
-    }],
+    tags: {
+        type: Map,
+        of: String
+    },
     date: {
         type: Date,
         default: Date.now,

@@ -3,9 +3,16 @@
     justify-content: center;
     margin-top: .625rem;
     position: fixed;
-    top: 8rem;
     background-color: #fff;
     z-index: 20;
+  }
+
+  .top_more {
+    top: 8rem;
+  }
+
+  .top_less {
+    top: 4rem;
   }
   
   .inspo_tab {
@@ -22,8 +29,8 @@
   .selected {
     color: #222222;
     background-color: #F0F0F0;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     border-bottom: 4px solid #F61BB4;
   }
   
