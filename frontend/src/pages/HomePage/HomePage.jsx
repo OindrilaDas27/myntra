@@ -40,6 +40,7 @@ const HomePage = () => {
               brandName={product.brandName}
               productName={product.name}
               productPrice={product.price}
+              productDescription={product.description}
             />
           ))}
           {filteredProducts.length === 0 && products.map((product) => (
@@ -49,6 +50,7 @@ const HomePage = () => {
               brandName={product.brandName}
               productName={product.name}
               productPrice={product.price}
+              productDescription={product.description}
             />
           ))}
         </div>
